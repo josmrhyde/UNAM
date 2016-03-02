@@ -9,7 +9,7 @@ namespace HolaMundo
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hola Asesor... mis datos son: Josué Eli Hernández Molina. 402008176. saludos",
+					Text = "Hola Asesor... mis datos son: Josué Eli Hernández Molina. 402008176. Saludos y gracias por las asesorías y videos",
 					VerticalOptions = LayoutOptions.CenterAndExpand,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
 				},
