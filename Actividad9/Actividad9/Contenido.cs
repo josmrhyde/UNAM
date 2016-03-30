@@ -33,13 +33,18 @@ namespace Actividad9
 			DefaultHttpClientConnection cliente = new DefaultHttpClientConnection();
 			HttpPost posteo = new HttpPost (url);
 			try{
-				//ListView nameValuePair = 
+				
 				//posteo.Entity(new UrlEncodedFormEntity (BasicNameValuePair));
 				//BasicHttpResponse respuesta= cliente.ReceiveResponseEntity(posteo);
-				//DisplayAlert ("Alerta de tiempo", "La '"+entry.Text + "'se ha estblecido", "OK");
+
 			}
-			catch (Exception exc){
-				filenameLabel.Text = exc.Message;
+			catch (Exception ex){
+
+				DisplayAlert ("Atención", "Los datos de conexión no son correctos", "Aceptar", "sin camino");
+
+				/*Console.Out.WriteLine ("El compilador ha sido inciado");
+				Console.Out.WriteLine (ex.GetType ().FullName);
+				Console.Out.WriteLine (ex.GetBaseException().ToString());*/
 			};
 		}
 	}

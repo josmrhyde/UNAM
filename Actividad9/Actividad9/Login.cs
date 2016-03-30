@@ -17,6 +17,7 @@ namespace Actividad9
 			};
 
 			boton.Clicked += (sender, e) => {
+				DisplayAlert ("Atención", "Comenzando la conexión", "Aceptar", "sin camino");
 
 				if(usuario.Text.Equals("usuario")){
 					Navigation.PushAsync(new Contenido());
